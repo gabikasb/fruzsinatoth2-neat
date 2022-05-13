@@ -14,6 +14,8 @@ tags:
 
 ## Invite publisher with email
 
+![layers_slips](src/static/img/layers_hero.jpg)
+
 ## Go on with content!
 
 > Super Cool!
