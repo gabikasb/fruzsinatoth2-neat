@@ -1,5 +1,5 @@
 ---
-title: Posting from metlify CMS
+title: Posting from Netlify CMS
 description: This seems quite cool at first sight
 author: Gabor Gy
 date: 2022-05-13T10:23:29.272Z
