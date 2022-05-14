@@ -1,10 +1,12 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Fruzsina Toth
+    url: "#about"
+  - text: Design Strategy
+    url: "#strategy"
+  - text: Organization
+    url: "#orgamization"
+  - text: Education
+    url: "#education"
+  - text: Portfolio
+    url: "/portfolio"

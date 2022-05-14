@@ -12,6 +12,80 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+  :root {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="font-size: .8rem;"><circle cx="5" cy="5" r="5" fill="darkred"/></svg>'),
+      auto;
+  }
+
+  body {
+    font-family: sans-serif;
+    overflow: hidden;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  }
+
+  .container {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 5rem;
+    overflow: auto;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+  }
+
+  .container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+
+    section {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    min-width: 70vw;
+    margin: auto;
+    padding: 5rem;
+    height: 100%;
+    vertical-align: center;
+    border-right: 1px solid #aaa;
+    box-sizing: content-box;
+  }
+
+  #education {
+    border-right: none;
+  }
+
+    .social {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-icon {
+    width: 5rem;
+    filter: opacity(50%);
+  }
+
+    p {
+    max-width: 30rem;
+  }
+  a:hover {
+    transform: scale(1.1);
+  }
+
+    .contact:hover {
+    transform: scale(1.1);
+  }
+
+   #portrait {
+    position: relative;
+    margin: 0 auto;
+    top: 5rem;
+    background-color: darkgrey;
+    width: 250px;
+    
+    z-index: -1;
+    filter: opacity(35%);
+  }
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
